@@ -14,7 +14,7 @@ import (
 
 var (
 	ctx         = context.Background()
-	url         = "ws://142.132.192.47:8546"
+	url         = "ws://127.0.0.1:8546"
 	rpcClient   *rpc.Client
 	err         error
 	gethclients *gethclient.Client
